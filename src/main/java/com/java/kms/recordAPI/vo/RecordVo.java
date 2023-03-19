@@ -8,8 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RecordVo {
-    private String name;
-    private String age;
-    private String email;
-    private String nickname;
+    private String id;
+    private String recordName;
+    private String createDate;
+    private String updateDate;
 }
